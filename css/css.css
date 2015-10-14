@@ -1,0 +1,36 @@
+﻿#qrcode {
+  position: relative;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+#qrcode .imgOverlay {
+  padding: 0;
+  width: 45px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#qrcode .imgOverlay .imgRound {
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  background: #D8D8D8;
+  border: 3px solid #FFF;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -o-border-radius: 35px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#qrprofilepic {
+  width: 100%;
+}
